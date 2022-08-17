@@ -1,0 +1,117 @@
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+section{
+    background-color: #E9E9E9;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: #EEEEEE;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #434545;
+    text-decoration: none;
+}
+
+.home{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.home > p {
+    font-size: 18px;
+    font-style: normal;
+    color: #52B1E3;
+    font-weight: 600;
+    grid-gap: 10px;
+    position: relative;
+    padding-top: 20px;
+    
+}
+
+@media (max-width: 600px){
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 10px;
+}
+}
+
+.homeC{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.homeC > div > h3{
+    color: #88BBD6;
+    font-weight: 700;
+    font-size: 18px;
+}
+.homeC > div > img{
+}
+
+.homeC > div > p{
+    color: #434545;
+    font-weight: 400;
+}
+
+.serv {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #52B1E3;
+    text-align: center
+
+}
+
+.services{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.services > div{
+    padding-top: 25x;
+}
+
+
+.titleServ{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #302B2B;
+}
+
+/* Diminui espaçamento entre titulo e informações */
+.contServ{
+    margin-top: -17px;
+}
+
+/* 
+
+grid responsive
+
+https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe
+
+*/
