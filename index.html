@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="icon" type="image/png" href="./img/logo0.png"/>
+
     <title>MTsoluções</title>
   </head>
   <body>
@@ -18,18 +26,18 @@
       <img src="./img/logo mt 1.png" alt="" srcset="" />
 
       <ul class="menu">
-        <a href="#">Home</a>
-        <a href="#">Serviços</a>
-        <a href="#">Depoimento</a>
-        <a href="#">Contato</a>
+        <a href="#home">Home</a>
+        <a href="#serv">Serviços</a>
+        <a href="#depoi">Depoimentos</a>
+        <a href="#cont">Contato</a>
       </ul>
     </header>
 
     <section>
-      <div class="home">
+      <div id="home" class="home">
         <p>
-          MeisterTeste é uma empresa focada em garantir melhor experiencia e
-          evitar problemas para seu cliente final
+          MeisterTeste é uma empresa focada em garantir melhor experiência e
+          evitar problemas para seu cliente final.
         </p>
         <img src="./img/logo mt 3.png" alt="" srcset="" />
       </div>
@@ -37,10 +45,9 @@
       <div class="homeC">
         <div>
           <img src="./img/cont1.png" alt="" srcset="" />
-          <h3>Acessibilidade</h3>
+          <h3>Segurança</h3>
           <p>
-            Buscamos analisar e buscar soluções que melhorem a experiencia de
-            seu usuário final
+            Aumento da qualidade e segurança no desenvolvimento!
           </p>
         </div>
 
@@ -48,8 +55,8 @@
           <img src="./img/cont2.png" alt="" srcset="" />
           <h3>Acessibilidade</h3>
           <p>
-            Buscamos analisar e buscar soluções que melhorem a experiencia de
-            seu usuário final
+            Buscamos analisar e buscar soluções que melhorem a experiência de
+            seu usuário final!
           </p>
         </div>
 
@@ -58,14 +65,14 @@
           <h3>Maiores ganhos</h3>
           <p>
             Com a diminuição do retrabalho, onde pesquisas apontam que são 90%,
-            você terá uma maior prioridade em novos projetos
+            você terá uma maior prioridade em novos projetos!
           </p>
         </div>
       </div>
 
       <h2 class="serv">Serviços</h2>
-      <div class="services">
-        <div>
+      <div id="serv" class="services">
+        <div class="infosServ">
           <div>
             <h2 class="titleServ">Testes funcionais</h2>
             <p class="contServ">
@@ -74,50 +81,91 @@
             </p>
           </div>
           <div>
+            <br>
             <h2 class="titleServ">Testes de usabilidade</h2>
             <p class="contServ">
               Esse teste permite que além de validarmos o fluxo de sua aplicação
               , validarmos se o fluxo está claro para o cliente para que ele
-              tenha uma melhor experiencia
+              tenha uma melhor experiência!
             </p>
           </div>
           <div>
+            <br>
             <h2 class="titleServ">Testes automatizados</h2>
             <p class="contServ">
               Com os testes funcionais conseguimos replicar diversos testes em
               varios cenarios diferentes, sendo mais facil de encontrar antigos
-              e novos problemas
+              e novos problemas!
             </p>
           </div>
           <div>
+            <br>
             <h2 class="titleServ">Testes de carga</h2>
             <p class="contServ">
               Simulamos qual será o comportamento da sua aplicação quando
-              acessada por milhares de pessoas diferente. <strong>Problemas com sistema
-                lento? AQUI NÃO!</strong> 
+              acessada por milhares de pessoas diferente.
+              <strong>Problemas com sistema lento? AQUI NÃO!</strong>
             </p>
           </div>
         </div>
 
-        <div>
-          <img src="./img/cont4.png" alt="" srcset="" />
+        <div class="imgServ">
+          <img  src="./img/cont4.png" alt="" srcset="" />
         </div>
       </div>
 
       <h2 class="serv">Depoimentos</h2>
-      <div>
-
+      <div id="depoi" class="depo">
         <div>
-            <img src="./img/cont3.png" alt="" srcset="" />
-            <h3>Maiores ganhos</h3>
-            <p>
-              Com a diminuição do retrabalho, onde pesquisas apontam que são 90%,
-              você terá uma maior prioridade em novos projetos
-            </p>
+          <img src="./img/user1.png" alt="" srcset="" />
+          <p>
+            "Ótimo serviço, encontraram problemas que iriam passar despercebidos
+            para o cliente final"
+            <br>
+            <strong>Marco Alonso - Squad líder Amazon</strong>
+          </p>
         </div>
 
-      </div>
+        <div>
+          <img src="./img/user2.png" alt="" srcset="" />
+          <p>
+            "Um bom atendimento e um bom serviço, validam diversas questões no
+            sistema. em futuros projetos, irei contratar com toda certeza"
+            <br>
+            <strong>Eduardo Batista - Gerente de projetos Google</strong>
+          </p>
+        </div>
 
+        <div>
+          <img src="./img/user3.png" alt="" srcset="" />
+          <p>
+            "Um bom atendimento e um bom serviço, validam diversas questões no
+            sistema. em futuros projetos, irei contratar com toda certeza"
+            <br>
+            <strong>Maria Silva - Analista de teste Globo</strong>
+          </p>
+        </div>
+      </div>
     </section>
+
+    <footer>
+      <section id="cont" class="footer">
+        <img src="./img/logo mt 2.png" alt="" srcset="" />
+
+        <p>Made by João Paulo V. Duarte</p>
+      </section>
+    </footer>
+
+    <div>
+      <!-- WhatsApp -->
+      <a
+        href="https://wa.me/5544997136137?text=Ol%C3%A1%2C+como+podemos+ajudar%3F+"
+        class="btn-wpp"
+        target="_blank"
+        style="right: 23px !important"
+      >
+        <img src="./img/icon/whatsapp.png" height="40" width="40" />
+      </a>
+    </div>
   </body>
 </html>
